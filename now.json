@@ -1,6 +1,7 @@
 {
-"alias": ["helloBlog.com"],
-"github": {
-"autoAlias": false
- } 
+    "version": 2,
+    "name": "myblog",
+    "builds": [
+        { "src": "**/*.js", "use": "@now/node" }
+    ]
 }
